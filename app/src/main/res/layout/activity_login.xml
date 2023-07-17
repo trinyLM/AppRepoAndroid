@@ -81,13 +81,14 @@
         android:id="@+id/buttonLogin"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:background="@color/cardview_dark_background"
+        android:onClick="openHome"
         android:text="Ingresar"
         android:textColor="#fff"
         android:textSize="15sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonRegister"
